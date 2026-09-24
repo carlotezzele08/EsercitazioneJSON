@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Catalogo libri</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="titolo">Caricamento...</h1>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Cerca per titolo o autore..." />
+        <select id="filter-genere">
+          <option value="">Tutti i generi</option>
+        </select>
+        <a href="preferiti.html" class="btn">Preferiti (<span id="contatore">0</span>)</a>
+      </div>
+    </header>
+
+    <main>
+      <div id="lista-libri" class="lista"></div>
+    </main>
+
+    <script src="script-catalogo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "titolo_catalogo": "Catalogo Biblioteca Comunale",
+  "libri": [
+    {
+      "id": 1,
+      "titolo": "Il nome della rosa",
+      "autore": "Umberto Eco",
+      "anno": 1980,
+      "genere": "Romanzo storico",
+      "disponibile": true
+    },
+    {
+      "id": 2,
+      "titolo": "Cent'anni di solitudine",
+      "autore": "Gabriel García Márquez",
+      "anno": 1967,
+      "genere": "Romanzo",
+      "disponibile": false
+    },
+    {
+      "id": 3,
+      "titolo": "La coscienza di Zeno",
+      "autore": "Italo Svevo",
+      "anno": 1923,
+      "genere": "Romanzo psicologico",
+      "disponibile": true
+    },
+    {
+      "id": 4,
+      "titolo": "Il barone rampante",
+      "autore": "Italo Calvino",
+      "anno": 1957,
+      "genere": "Narrativa",
+      "disponibile": true
+    },
+    {
+      "id": 5,
+      "titolo": "La solitudine dei numeri primi",
+      "autore": "Paolo Giordano",
+      "anno": 2008,
+      "genere": "Romanzo contemporaneo",
+      "disponibile": false
+    }
+  ]
+}

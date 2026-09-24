@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Preferiti</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Preferiti</h1>
+      <div class="controls">
+        <a href="index.html" class="btn">Torna al catalogo</a>
+        <button id="svuota" class="btn">Svuota preferiti</button>
+        <span id="contatore-preferiti">Hai 0 libri nei preferiti</span>
+      </div>
+    </header>
+    <main>
+      <div id="lista-preferiti" class="lista"></div>
+      <div id="errore-localstorage" class="error" aria-live="polite"></div>
+    </main>
+
+    <script src="script-preferiti.js"></script>
+  </body>
+</html>
