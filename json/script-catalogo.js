@@ -101,7 +101,6 @@ function escapeHtml(s){
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
-// events
 if(searchEl) searchEl.addEventListener('input', filterBooks);
 if(genereEl) genereEl.addEventListener('change', filterBooks);
 

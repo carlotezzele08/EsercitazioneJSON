@@ -13,7 +13,7 @@ function loadFavorites(){
   }catch(e){
     console.error(e);
     if(erroreEl) erroreEl.textContent = 'Errore: contenuto preferiti non valido.';
-    return null; // signal error
+    return null;
   }
 }
 
